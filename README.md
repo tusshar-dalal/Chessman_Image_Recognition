@@ -4,7 +4,9 @@ We are trying to build a model using CNN for recognising the Chessman images fro
 
 The dataset has 483 images in total divided into 6 classes.
 
-To avoid overfitting of model, Data Augmentation is performed using Image Generator utility from Tensorflow.
+For avoiding Overfitting, Data Augmentation is performed using Image Generator utility from Tensorflow.
 
+On using a pre-trained model ResNet, a drastic improvement was seen in Accuracy of Model.
 
+Accuracy can further be increased by performing Hyperparameter tuning and trying different pretrained model or ResNet trained on some other dataset.
 
